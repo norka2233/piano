@@ -1,0 +1,29 @@
+body {
+  background: black;
+}
+
+.container {
+  display: flex;
+  width: 50%;
+  justify-content: space-between;
+  font-size: 14px;
+  margin: 200px auto;
+
+
+}
+
+.piano_button {
+  background: white;
+  height: 300px;
+  width: 80px;
+  border-radius: 12px;
+  transition: all 0.7s;
+  font-size: 16px;
+  font-weight: bold;
+  padding-top: 170px;
+}
+
+.pressed_key {
+    height: 260px;
+    background: grey;
+}
