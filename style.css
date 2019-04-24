@@ -25,5 +25,5 @@ body {
 
 .pressed_key {
     height: 260px;
-    background: grey;
+    background: red;
 }
