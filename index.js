@@ -2,8 +2,8 @@ document.addEventListener('keydown', sound);
 document.addEventListener('keyup', remove);
 
 function sound(event){
-  audio = document.querySelector(`audio[data-key="${event.keyCode}"]`);
-  pressedKey = document.querySelector(`button[data-key="${event.keyCode}"]`);
+  let audio = document.querySelector(`audio[data-key="${event.keyCode}"]`);
+  let pressedKey = document.querySelector(`button[data-key="${event.keyCode}"]`);
   pressedKey.className += " pressed_key";
   audio.play();
 
