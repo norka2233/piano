@@ -10,6 +10,6 @@ function sound(event){
 }
 
 function remove(event) {
-    pressedKey = document.querySelector(`button[data-key="${event.keyCode}"]`);
-    pressedKey.classList.remove('pressed_key');
+  const  pressedKey = document.querySelector(`button[data-key="${event.keyCode}"]`);
+  const pressedKey.classList.remove('pressed_key');
 }
